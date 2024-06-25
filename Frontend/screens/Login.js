@@ -1,0 +1,244 @@
+import React, { useState } from 'react';
+import {
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  TouchableOpacity,
+  TextInput,
+  KeyboardAvoidingView,
+  Alert,
+} from 'react-native';
+import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
+import { user } from '../repositories';
+import colors from '../constants/colors';
+import icons from '../constants/icons';
+import {
+  isValidEmail,
+  isValidPassword,
+  isValidPhoneNumber,
+  isValidUsername,
+} from '../utils/validations/validations';
+import { isIOS } from '../utils/helpers/Device';
+import { startSpinner, stopSpinner } from '../utils/helpers/startSpinner';
+import Loading from '../components/Loading';
+
+const Login = (props) => {
+  const { navigation } = props;
+  const { navigate } = navigation;
+
+  const [errorAccount, setErrorAccount] = useState('');
+  const [errorPassword, setErrorPassword] = useState('');
+
+  const [password, setPassword] = useState('Admin123*');
+  const [account, setAccount] = useState('Admin123');
+
+  const [showPassword, setShowPassword] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  const toggleShowPassword = () => {
+    setShowPassword(!showPassword);
+  };
+
+  const isValidAccount = (account) =>
+    isValidUsername(account) || isValidEmail(account) || isValidPhoneNumber(account);
+
+  const isValidation = () =>
+    account.length > 0 && password.length > 0 && isValidAccount(account) && isValidPassword(password);
+
+  const handleLogin = async () => {
+    try {
+      setLoading(true);
+      startSpinner();
+      if (!isValidation()) {
+        return;
+      }
+      const response = await user.login({ gmail: account, password });
+      navigate('UITab', { user: response.user });
+    } catch (error) {
+      if (error.response.status === 404) {
+        Alert.alert('Error', 'Account not found');
+      } else if (error.response.status === 401) {
+        Alert.alert('Error', 'Incorrect password');
+      }
+    } finally {
+      setLoading(false);
+      stopSpinner();
+    }
+  };
+
+  const handleRegister = () => {
+    navigation.navigate('SignUp');
+  };
+
+  return (
+    <KeyboardAwareScrollView
+      contentContainerStyle={styles.container}
+      keyboardShouldPersistTaps="handled"
+      showsVerticalScrollIndicator={false}
+    >
+      <View style={styles.top}>
+        <View style={styles.background}>
+          <Image
+            style={styles.mascot}
+            source={require('../assets/icons/dolphin/dolphin-hi.png')}
+          />
+        </View>
+      </View>
+      <View style={styles.brand}>
+        <Text style={styles.name}> G.Evènements </Text>
+        <Text style={styles.slogan}>Améliorez vos événements, créez des moments inoubliables</Text>
+      </View>
+      <View style={styles.form}>
+        <TextInput
+          onChangeText={(text) => {
+            setErrorAccount(isValidAccount(text) ? '' : "Le compte n'est pas dans le bon format");
+            setAccount(text);
+          }}
+          style={styles.input}
+          placeholder="Numéro de téléphone ou courriel"
+        />
+        {errorAccount !== '' && <Text style={styles.error}>{errorAccount}</Text>}
+        <View style={styles.password}>
+          <TextInput
+            secureTextEntry={!showPassword}
+            onChangeText={(text) => {
+              setErrorPassword(
+                isValidPassword(text)
+                  ? ''
+                  : 'Password needs 1 lowercase, 1 uppercase, 1 digit, and minimum 8 characters'
+              );
+              setPassword(text);
+            }}
+            placeholder="Mot de passe"
+            style={styles.passwordInput}
+          />
+          <TouchableOpacity onPress={toggleShowPassword} style={styles.passwordButton}>
+            <Image
+              style={styles.iconPassword}
+              source={showPassword ? icons.hide : icons.show}
+            />
+          </TouchableOpacity>
+        </View>
+        {errorPassword !== '' && <Text style={styles.error}>{errorPassword}</Text>}
+        <TouchableOpacity
+          style={styles.button}
+          disabled={!isValidation()}
+          onPress={handleLogin}
+        >
+          <Text>Se connecter</Text>
+        </TouchableOpacity>
+      </View>
+      <TouchableOpacity style={styles.bottom} onPress={handleRegister}>
+        <Text>
+          Vous n'avez pas de compte ?{' '}
+          <Text style={{ color: colors.secondary, textDecorationLine: 'underline' }}>
+            S'inscrire ?
+          </Text>
+        </Text>
+      </TouchableOpacity>
+      {loading && <Loading />}
+    </KeyboardAwareScrollView>
+  );
+};
+
+export default Login;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
+  top: {
+    flex: 6,
+    justifyContent: 'flex-end',
+    width: '100%',
+    alignItems: 'center',
+    borderBottomEndRadius: 200,
+  },
+  background: {
+    backgroundColor: colors.blue_light,
+    width: '100%',
+    height: '100%',
+    alignItems: 'center',
+    justifyContent: 'flex-end',
+    borderBottomRightRadius: 800,
+  },
+  mascot: {
+    width: 200,
+    height: 200,
+  },
+  brand: {
+    flex: 2,
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '100%',
+  },
+  name: {
+    fontSize: 30,
+    fontWeight: '700',
+    color: colors.accent,
+  },
+  slogan: {
+    color: colors.accent,
+    fontSize: 14,
+    lineHeight: 28,
+    textAlign: 'center',
+  },
+  form: {
+    flex: 6,
+    alignItems: 'center',
+    width: '100%',
+  },
+  input: {
+    borderWidth: 1,
+    borderRadius: 6,
+    padding: 13,
+    width: '75%',
+    borderColor: colors.dark_gray,
+    marginVertical: 6,
+    marginTop: 14,
+  },
+  password: {
+    borderWidth: 1,
+    borderRadius: 6,
+    padding: 13,
+    width: '75%',
+    borderColor: colors.dark_gray,
+    marginVertical: 6,
+    marginTop: 14,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  passwordInput: {
+    flex: 9,
+  },
+  passwordButton: {
+    width: 20,
+    height: 20,
+  },
+  iconPassword: {
+    width: 20,
+    height: 20,
+    tintColor: colors.accent,
+  },
+  button: {
+    backgroundColor: colors.primary,
+    borderRadius: 6,
+    padding: 13,
+    marginVertical: 10,
+    width: '75%',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  bottom: {
+    flex: 1,
+  },
+  error: {
+    color: colors.danger,
+    width: '75%',
+    fontSize: 12,
+  },
+});

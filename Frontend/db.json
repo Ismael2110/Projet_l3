@@ -1,0 +1,283 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "name": "Ministère de la défense",
+            "slogan": "Raviver - Allumer - Propagation",
+            "description": "Festival K23 - BORN OF FIRE avec des stations de jeux en continu associées aux matières difficiles des étudiants en informatique comme le K23 et la pierre de calcul, les mathématiques discrètes, et le prince des nombres crédit, le projet python et mort,... avec le. participation enthousiaste des nouveaux venus de l'ITF. Pleine de surprises avec la performance musicale combinée aux lumières LED extrêmement accrocheuses des étudiants de K23, l'image des lumières des lanternes qui se transmettent les unes aux autres est également extrêmement belle et significative.",
+            "location": "Domaine F, Université Polytechnique",
+            "status": 1,
+            "date_start": "20/11/2023",
+            "image": "https://image.bnews.vn/MediaUpload/Org/2023/04/06/160727-van-hoa-soi-duong-doc-dao-le-nhay-lua-cua-nguoi-pa-then-o-lam-binh-tuyen-quang-.jpg"
+        },
+        {
+            "id": 2,
+            "name": "IT - GEN Z FESTIVAL",
+            "slogan": null,
+            "description": "Après plusieurs jours d'attente, ce jour « fatidique » est arrivé, IT - GEN Z FESTIVAL est officiellement « lancé » et accueille tous les ITers.",
+            "location": "Domaine F, Université Polytechnique",
+            "status": 0,
+            "date_start": "04/12/2022",
+            "image": "https://media.hanoitimes.vn/2023/04/07/TRAVEL_1.jpg"
+        },
+        {
+            "id": 3,
+            "name": "IT LEAGUE 2024",
+            "slogan": "Who is the Champion?!",
+            "description": "Le voyage pour trouver le propriétaire de la coupe du championnat IT League. Rejoignez le département des technologies de l'information dans les étapes de préparation pour vivre une saison satisfaisante. Dépêchez-vous et inscrivez-vous.",
+            "location": "Stade de football Nguyen Chanh 2 - rue 4, quartier Hoa Khanh Bac, district de Lien Chieu, ville. Danang",
+            "status": 0,
+            "date_start": "27/09/2022",
+            "image": "https://fit-hau.edu.vn/storage/files/C%C3%A1c%20cu%E1%BB%99c%20thi%20Li%C3%AAn%20Chi%20%C4%90o%C3%A0n/IT-League2023/avatar%20it%20league.png"
+        },
+        {
+            "id": 4,
+            "name": "CodeFest 2023",
+            "slogan": "Unleash the Coding Power",
+            "description": "CodeFest est le défi de programmation ultime où les candidats seront confrontés à des problèmes de programmation difficiles. Préparez-vous à libérer vos compétences en programmation et à concourir pour des prix passionnants !",
+            "location": "Arène du pôle technologique",
+            "status": 2,
+            "date_start": "10/02/2023",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzJ7R26bYunFKzthbmabMCi8ihqyO31NSoqPZYoj8YdZRslHu9y2x9oV7Z7upkjxFFDnQ&usqp=CAU"
+        },
+        {
+            "id": 5,
+            "name": "TechXperience Expo",
+            "slogan": "Explore the Future Tech",
+            "description": "Embarquez pour un voyage à la découverte des dernières et meilleures technologies. TechXperience Expo accueille les amateurs de technologie, les créateurs et les experts du secteur pour une journée d'expériences technologiques immersives.",
+            "location": "Centre d'innovation, Université de Danang",
+            "status": 1,
+            "date_start": "15/11/2023",
+            "image": "https://play-lh.googleusercontent.com/Z8i-NHiXcZMKI0SrFVJzJ4Zln48-zOlw8n8Ry1PbneVd5UyIcpqWkjKfpQgqTlHzAzjC"
+        },
+        {
+            "id": 6,
+            "name": "Thách thức Data Crunch",
+            "slogan": "Crack the Data Code",
+            "description": "Appel à tous les passionnés de données ! Rejoignez le Data Crunch Challenge et montrez vos compétences en analyse de données. Analysez des ensembles de données du monde réel et décodez-les pour découvrir des informations précieuses.",
+            "location": "Laboratoire de données",
+            "status": 1,
+            "date_start": "08/11/2023",
+            "image": "https://i.scdn.co/image/ab6765630000ba8a772ab3432a4b798501cd9d21"
+        },
+        {
+            "id": 7,
+            "name": "InnoHackathon 2023",
+            "slogan": "Innovate, Code, Win!",
+            "description": "InnoHackathon est le défi ultime en matière d'innovation. Rassemblez votre équipe, trouvez des solutions créatives et programmez votre chemin vers la victoire. Il est temps de transformer vos idées innovantes en réalité !",
+            "location": "Centre d'innovation",
+            "status": 0,
+            "date_start": "20/12/2023",
+            "image": "https://eelisa.eu/wp-content/uploads/2022/09/Colores-corporativos-Post-de-Instagram.png"
+        },
+        {
+            "id": 8,
+            "name": "Conférence FutureTech",
+            "slogan": "Shaping Tomorrow’s Tech",
+            "description": "Rejoignez les leaders de l'industrie, les chercheurs et les fans de technologie à la conférence FutureTech. Explorez des technologies révolutionnaires, discutez des tendances futures et participez à façonner le paysage technologique de demain.",
+            "location": "Centre de conférence technologique",
+            "status": 2,
+            "date_start": "02/03/2023",
+            "image": "https://play-lh.googleusercontent.com/bGGbcS97bKY8qrHit_NW8pNr2zvgfoycMm4fL7jB8SmUToV8uPQ6pWwOx6JQmIgcnRnS"
+        },
+        {
+            "id": 9,
+            "name": "IT - GEN Z FESTIVAL",
+            "image": "https://media.hanoitimes.vn/2023/04/07/TRAVEL_1.jpg",
+            "slogan": "Raviver - Allumer - Propagation",
+            "description": "Festival K23 - BORN OF FIRE avec des stations de jeux en continu associées aux matières difficiles des étudiants en informatique comme le K23 et la pierre de calcul, les mathématiques discrètes, et le prince des nombres crédit, le projet python et mort,... avec le. participation enthousiaste des nouveaux venus de l'ITF. Pleine de surprises avec la performance musicale combinée aux lumières LED extrêmement accrocheuses des étudiants de K23, l'image des lumières des lanternes qui se transmettent les unes aux autres est également extrêmement belle et significative.",
+            "location": "Domaine F, Université Polytechnique",
+            "status": 1,
+            "date_start": "20/11/2023",
+            "date_end": "30/11/2023",
+            "memberNumber": 20,
+            "createdBy": {
+                "name": "Ngo Mau Truong",
+                "username": "03nmt",
+                "gmail": "truongngo2707@gmail.com",
+                "tel": "0921233432",
+                "avatar": "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/348470729_1553614581830967_517173605717923574_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=1e5-gzYs6DYAX-qLqIp&_nc_ht=scontent.fdad1-2.fna&oh=00_AfBSYVKJYRTIxJeEszIsI8DPTP11VfoBq3O7qnoMZgBNuw&oe=65773ADB",
+                "faculity_name": "IT",
+                "university": "Université des sciences et technologies de Da Nang"
+            },
+            "departments": [
+                {
+                    "department_id": 1,
+                    "name": "Bureau technique",
+                    "description": "Gestion des systèmes techniques et de la technologie événementielle. Assistance en cas de problèmes techniques et de nouvelles mises à jour technologiques."
+                },
+                {
+                    "department_id": 2,
+                    "name": "Les média",
+                    "description": "Faites la promotion de l’événement sur les plateformes de médias sociaux et sur les sites Web. Créer du contenu promotionnel et des informations sur les événements. Gérer les contacts avec les partenaires presse et médias."
+                },
+                {
+                    "department_id": 3,
+                    "name": "Département de logistique",
+                    "description": "Préparer la logistique telle que le déjeuner et le dîner pour les organisateurs ainsi que pour les participants à l'événement, et réserver les réservations et les chambres d'hôtel pour la délégation."
+                }
+            ]
+        }
+    ],
+    "notifications": [
+        {
+            "id": 1,
+            "title": "Confirmer la participation à l'événement",
+            "content": "Vous avez été confirmé comme collaborateur pour l'événement IT GenZ Festival organisé par la Fédération des Facultés des Technologies de l'Information.",
+            "dateTime": "22:02 13-11-1023",
+            "isRead": true,
+            "image": "https://i.scdn.co/image/ab6765630000ba8a772ab3432a4b798501cd9d21"
+        },
+        {
+            "id": 2,
+            "title": "Un nouveau message",
+            "content": "Un nouveau message de @minh_dac",
+            "dateTime": "14:02 13-10-1023",
+            "isRead": false,
+            "image": "https://scontent.fdad2-1.fna.fbcdn.net/v/t39.30808-6/284949647_3156128071322634_1478468963075710123_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=LHUwM9EAxsUAX8idSkI&_nc_ht=scontent.fdad2-1.fna&oh=00_AfAqZStCLLhnLPGm8CYTNXp5ctexeARzr-k7W5A22xfC3w&oe=65615FD4"
+        },
+        {
+            "id": 3,
+            "title": "L'événement est sur le point de commencer",
+            "content": "Le 11ème événement Uni Hack Danang a commencé, inscrivez-vous vite pour devenir collaborateur pour soutenir l'événement et recevoir des points de formation ainsi que du « fun » !",
+            "dateTime": "00:00 13-12-1023",
+            "isRead": true,
+            "image": "https://scontent.fdad2-1.fna.fbcdn.net/v/t39.30808-6/404116728_894960792055321_6523011029150830526_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=TjPm6YxYhvwAX8mY4QU&_nc_ht=scontent.fdad2-1.fna&oh=00_AfC_KGi1ZLv_W7o64xFbnmtyEjL4NsMEGOA7D9LDNyZllg&oe=65625E76"
+        },
+        {
+            "id": 4,
+            "title": "Mission non terminée",
+            "content": "Le plan global de l’événement IT GenZ Festival n’est pas terminé. Dépêchez-vous et faites-le !",
+            "dateTime": "00:00 13-12-1023",
+            "isRead": true,
+            "image": "https://play-lh.googleusercontent.com/bGGbcS97bKY8qrHit_NW8pNr2zvgfoycMm4fL7jB8SmUToV8uPQ6pWwOx6JQmIgcnRnS"
+        },
+        {
+            "id": 5,
+            "title": "Avis important",
+            "content": "Un nouveau message de @mautruongconaitei",
+            "dateTime": "10:30 18-11-1023",
+            "isRead": true,
+            "image": "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/348470729_1553614581830967_517173605717923574_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=4jfTDf3Gp4QAX_nfj0_&_nc_ht=scontent.fdad1-2.fna&oh=00_AfCCMHEfZwu_uiiSnOB5olCCFz-Im_kBTWUgB4kqMKcpTg&oe=65617A1B"
+        },
+        {
+            "id": 6,
+            "title": "Informations sur l'inscription à l'événement",
+            "content": "Veuillez vous inscrire à l'événement Uni Hack Danang avant le 25 novembre 2023 pour vous assurer d'avoir une place pour participer.",
+            "dateTime": "15:45 22-11-1023",
+            "isRead": false,
+            "image": "https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/383338821_759441736212929_6403370624334235944_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mmxq8G5svE0AX_aLB00&_nc_ht=scontent.fdad1-4.fna&oh=00_AfB3PllRFo47RnmXqWXSCtDmDg27Q8sM-jC9Lc-y2gbpxg&oe=655DCE49"
+        },
+        {
+            "id": 7,
+            "title": "Invitation à participer à l'événement",
+            "content": "Vous recevez une invitation à participer à une conférence pour partager des expériences d'experts du secteur des technologies de l'information.",
+            "dateTime": "08:00 20-11-1023",
+            "isRead": true,
+            "image": null
+        },
+        {
+            "id": 8,
+            "title": "Notification des résultats de l'inscription",
+            "content": "Les résultats des inscriptions à l'événement Uni Hack Danang seront annoncés le 27 novembre 2023. Bonne chance!",
+            "dateTime": "18:30 25-11-1023",
+            "isRead": false,
+            "image": "https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/383338821_759441736212929_6403370624334235944_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mmxq8G5svE0AX_aLB00&_nc_ht=scontent.fdad1-4.fna&oh=00_AfB3PllRFo47RnmXqWXSCtDmDg27Q8sM-jC9Lc-y2gbpxg&oe=655DCE49"
+        }
+    ],
+    "events-home": [
+        {
+            "id": 1,
+            "name": "K23 - Né du feu",
+            "image": "https://image.bnews.vn/MediaUpload/Org/2023/04/06/160727-van-hoa-soi-duong-doc-dao-le-nhay-lua-cua-nguoi-pa-then-o-lam-binh-tuyen-quang-.jpg"
+        },
+        {
+            "id": 2,
+            "name": "IT - GEN Z FESTIVAL",
+            "image": "https://media.hanoitimes.vn/2023/04/07/TRAVEL_1.jpg"
+        },
+        {
+            "id": 3,
+            "name": "IT LEAGUE 2024",
+            "image": "https://fit-hau.edu.vn/storage/files/C%C3%A1c%20cu%E1%BB%99c%20thi%20Li%C3%AAn%20Chi%20%C4%90o%C3%A0n/IT-League2023/avatar%20it%20league.png"
+        },
+        {
+            "id": 4,
+            "name": "CodeFest 2023",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzJ7R26bYunFKzthbmabMCi8ihqyO31NSoqPZYoj8YdZRslHu9y2x9oV7Z7upkjxFFDnQ&usqp=CAU"
+        },
+        {
+            "id": 5,
+            "image": "https://play-lh.googleusercontent.com/Z8i-NHiXcZMKI0SrFVJzJ4Zln48-zOlw8n8Ry1PbneVd5UyIcpqWkjKfpQgqTlHzAzjC"
+        },
+        {
+            "id": 6,
+            "image": "https://i.scdn.co/image/ab6765630000ba8a772ab3432a4b798501cd9d21"
+        },
+        {
+            "id": 7,
+            "image": "https://eelisa.eu/wp-content/uploads/2022/09/Colores-corporativos-Post-de-Instagram.png"
+        },
+        {
+            "id": 8,
+            "image": "https://play-lh.googleusercontent.com/bGGbcS97bKY8qrHit_NW8pNr2zvgfoycMm4fL7jB8SmUToV8uPQ6pWwOx6JQmIgcnRnS"
+        }
+    ],
+    "event-detail": {
+        "queryResult": {
+            "id": 5,
+            "name": "TechXperience Expo",
+            "description": "Embarquez pour un voyage à la découverte des dernières et meilleures technologies. TechXperience Expo accueille les amateurs de technologie, les créateurs et les experts du secteur pour une journée d'expériences technologiques immersives.",
+            "slogan": "Explore the Future Tech",
+            "date_start": "2023-11-15T00:00:00.000Z",
+            "date_end": "2024-11-15T00:00:00.000Z",
+            "location": "Centre d'innovation, Université de Danang",
+            "image": "http://res.cloudinary.com/deei5izfg/image/upload/v1701833554/Mobile/jflj2nej0jzvjleojnej.jpg",
+            "status": 1,
+            "createdBy": 1,
+            "type_id": 2,
+            "createdAt": "2023-12-07T14:30:32.000Z",
+            "updatedAt": "2023-12-07T14:30:32.000Z",
+            "Departments": [
+                {
+                    "name": "Tableau de communication",
+                    "description": "Tableau de communication",
+                    "event_id": 5,
+                    "id": 13,
+                    "Candidates": []
+                },
+                {
+                    "name": "Tableau de contenu",
+                    "description": "Tableau de contenu",
+                    "event_id": 5,
+                    "id": 14,
+                    "Candidates": []
+                },
+                {
+                    "name": "Bureau technique",
+                    "description": "Bureau technique",
+                    "event_id": 5,
+                    "id": 15,
+                    "Candidates": []
+                }
+            ],
+            "User": {
+                "id": 1,
+                "name": "Compaore",
+                "gmail": "admin123@gmail.com",
+                "password": "Compaore.00",
+                "telephone": "0102030405",
+                "address": "Numero 1",
+                "gender": "Homme",
+                "avatar": "http://res.cloudinary.com/deei5izfg/image/upload/v1701831728/Mobile/dvrabhlic5sfe9f1lxad.jpg",
+                "birthday": "2003-02-17T00:00:00.000Z",
+                "faculity_id": 1,
+                "university": "Université virtuel",
+                "createdAt": "2023-12-07T14:30:31.000Z",
+                "updatedAt": "2023-12-07T14:30:31.000Z"
+            }
+        },
+        "numberCandidate": 0
+    }
+
+}
