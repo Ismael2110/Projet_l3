@@ -1,4 +1,4 @@
-# HighX5 Event Management Application
+# Gestion Evènement
 
 ## Mobile 
 ### Project Information
