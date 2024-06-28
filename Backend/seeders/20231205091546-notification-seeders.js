@@ -15,54 +15,54 @@ module.exports = {
                 },
                 {
                     title: "Un nouveau message",
-                    content: "Một tin nhắn mới từ @minh_dac",
+                    content: "Un nouveau message de @minh_dac",
                     dateTime: "2023-10-13 14:02:00",
                     isRead: false,
                     image: "http://res.cloudinary.com/deei5izfg/image/upload/v1701930619/Mobile/og0zhmgcxco0a76pfhee.png",
                 },
                 {
-                    title: "Sự kiện sắp bắt đầu",
+                    title: "L'événement est sur le point de commencer",
                     content:
-                        'Sự kiện Uni Hack Đà Nẵng lần thứ 11 đã bắt đầu, hãy nhanh tay đăng kí để trở thành cộng tác viên hỗ trợ sự kiện và nhận về điểm rèn luyện cũng như những "sự vui vẻ" bạn nhé!',
+                        "Le 11ème événement Uni Hack Danang a commencé, inscrivez-vous vite pour devenir collaborateur pour soutenir l'événement et recevoir des points de formation ainsi que du « fun » !",
                     dateTime: "2023-12-13 00:00:59",
                     isRead: true,
                     image: "http://res.cloudinary.com/deei5izfg/image/upload/v1701930619/Mobile/og0zhmgcxco0a76pfhee.png",
                 },
                 {
-                    title: "Nhiệm vụ chưa hoàn thành",
+                    title: "Mission non terminée",
                     content:
-                        "Kế hoạch tổng quan của sự kiện IT GenZ Festival chưa được hoàn thành. Nhanh tay làm bạn nhé!",
+                        "Le plan global de l’événement IT GenZ Festival n’est pas terminé. Dépêchez-vous et faites-le !",
                     dateTime: "2023-12-13 00:00:00",
                     isRead: true,
                     image: "http://res.cloudinary.com/deei5izfg/image/upload/v1701930750/Mobile/ssexsqpii09nrwfnudi8.jpg",
                 },
                 {
-                    title: "Thông báo quan trọng",
-                    content: "Một tin nhắn mới từ @mautruongconaitei",
+                    title: "Avis important",
+                    content: "Un nouveau message de @mautruongconaitei",
                     dateTime: "2023-11-18 10:30:00",
                     isRead: true,
                     image: "http://res.cloudinary.com/deei5izfg/image/upload/v1701930619/Mobile/og0zhmgcxco0a76pfhee.png",
                 },
                 {
-                    title: "Thông tin đăng kí sự kiện",
+                    title: "Informations sur l'inscription à l'événement",
                     content:
-                        "Hãy đăng kí sự kiện Uni Hack Đà Nẵng trước ngày 25-11-2023 để đả bảo bạn có suất tham gia.",
+                        "Veuillez vous inscrire à l'événement Uni Hack Danang avant le 25 novembre 2023 pour vous assurer d'avoir une chance de participer.",
                     dateTime: "2023-11-22 15:45:00",
                     isRead: false,
                     image: "http://res.cloudinary.com/deei5izfg/image/upload/v1701930619/Mobile/og0zhmgcxco0a76pfhee.png",
                 },
                 {
-                    title: "Lời mời tham gia sự kiện",
+                    title: "Invitation à participer à l'événement",
                     content:
-                        "Bạn nhận được lời mời tham gia buổi nói chuyện chia sẻ kinh nghiệm từ các chuyên gia trong ngành Công nghệ thông tin.",
+                        "Vous recevez une invitation à participer à une conférence pour partager des expériences d'experts du secteur des technologies de l'information.",
                     dateTime: "2023-11-20 08:00:00",
                     isRead: true,
                     image: null,
                 },
                 {
-                    title: "Thông báo kết quả đăng kí",
+                    title: "Notification des résultats de l'inscription",
                     content:
-                        "Kết quả đăng kí tham gia sự kiện Uni Hack Đà Nẵng sẽ được công bố vào ngày 27-11-2023. Chúcbạn may mắn!",
+                        "Les résultats des inscriptions à l'événement Uni Hack Danang seront annoncés le 27 novembre 2023. Bonne chance!",
                     dateTime: "2023-11-25 18:30:00",
                     isRead: false,
                     image: "http://res.cloudinary.com/deei5izfg/image/upload/v1701930619/Mobile/og0zhmgcxco0a76pfhee.png",

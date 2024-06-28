@@ -1,16 +1,16 @@
-### Installation
+### Installation.
 ```
-2. Install dependencies:
+1. Installez les dépendances :
 ```
-cd Frontend
-npm i
+interface cd
+npm je
 ```
-3. Start the Expo development server:
+2. Démarrez le serveur de développement Expo :
 ```
-npm start
+npm démarrer
 ```
-`press i` with ios, `press a` with android
-4. Start json-server to simulate a fake API using the data from `db.json`
+"appuyez sur i" avec iOS, "appuyez sur a" avec Android
+3. Démarrez json-server pour simuler une fausse API en utilisant les données de « db.json »
 ```
-npm run fakeApi
+npm exécute fakeApi
 ```

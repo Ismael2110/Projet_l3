@@ -11,11 +11,10 @@ module.exports = {
             [
                 {
                     id: 1,
-                    name: "K23 - Bén lửa sinh ra",
-                    slogan: "Nhen nhóm - Bừng lên - Lan tỏa",
-                    description:
-                        'Ngày hội “K23 - BÉN LỬA SINH RA” với các trạm trò chơi liên hoàn gắn liền với các môn học đầy "khó nhằn" của sinh viên IT như K23 và hòn đá giải tích, hội toán rời rạc, hoàng tử tín hiệu số, python và đồ án tử thần,... được sự tham gia sôi nổi của các bạn newbie nhà ITF. Đầy bất ngờ với phần văn nghệ kết hợp với đèn led hết sức mãn nhãn của các bạn K23, hình ảnh truyền nhau ánh đèn hoa đăng cũng vô cùng đẹp và ý nghĩa.',
-                    location: "Sân khu F, Đại học bách khoa",
+                    name: "Ministère de la défense",
+            slogan: "Raviver - Allumer - Propagation",
+            description: "Festival K23 - BORN OF FIRE avec des stations de jeux en continu associées aux matières difficiles des étudiants en informatique comme le K23 et la pierre de calcul, les mathématiques discrètes, et le prince des nombres crédit, le projet python et mort,... avec le. participation enthousiaste des nouveaux venus de l'ITF. Pleine de surprises avec la performance musicale combinée aux lumières LED extrêmement accrocheuses des étudiants de K23, l'image des lumières des lanternes qui se transmettent les unes aux autres est également extrêmement belle et significative.",
+            location: "Domaine F, Université Polytechnique",
                     status: 0,
                     date_start: "2024-06-20",
                     date_end: "2024-07-20",
@@ -26,10 +25,9 @@ module.exports = {
                 {
                     id: 2,
                     name: "IT - GEN Z FESTIVAL",
-                    slogan: "Nhen nhóm - Bừng lên - Lan tỏa",
-                    description:
-                        "Sao bao ngày mong chờ thì ngày “định mệnh” ấy đã đến, IT – GEN Z FESTIVAL chính thức “ra lò” và chào đón tất cả các ITer đến tham dự.",
-                    location: "Sân khu F, Đại học bách khoa",
+                    slogan: null,
+                    description: "Après plusieurs jours d'attente, ce jour « fatidique » est arrivé, IT - GEN Z FESTIVAL est officiellement « lancé » et accueille tous les ITers.",
+                    location: "Domaine F, Université Polytechnique",
                     status: 0,
                     date_start: "2024-02-28",
                     date_end: "2024-03-09",
@@ -40,11 +38,9 @@ module.exports = {
                 {
                     id: 3,
                     name: "IT LEAGUE 2024",
-                    slogan: "Who is the Champion?",
-                    description:
-                        "Hành trình kiếm tìm chủ nhân của chiếc cup vô địch giải đấu IT League. Cùng liên chi đoàn khoa công nghệ thông tin tham gia vào các khâu chuẩn bị để có một mùa giải mãn nhãn nhé. Nhanh tay đăng kí thôi.",
-                    location:
-                        "Sân bóng Nguyễn Chánh 2 - Đường số 4, P. Hòa Khánh Bắc, Q.Liên Chiểu, TP. Đà Nẵng",
+                    slogan: "Who is the Champion?!",
+                    description: "Le voyage pour trouver le propriétaire de la coupe du championnat IT League. Rejoignez le département des technologies de l'information dans les étapes de préparation pour vivre une saison satisfaisante. Dépêchez-vous et inscrivez-vous.",
+                    location: "Stade de football Nguyen Chanh 2 - rue 4, quartier Hoa Khanh Bac, district de Lien Chieu, ville. Danang",
                     status: 0,
                     date_start: "2024-02-27",
                     date_end: "2024-03-15",
@@ -55,11 +51,10 @@ module.exports = {
                 {
                     id: 4,
                     name: "CodeFest 2023",
-                    slogan: "Unleash the Coding Power",
-                    description:
-                        "CodeFest là thách thức lập trình cuối cùng nơi các thí sinh sẽ đối mặt với những vấn đề lập trình khó khăn. Hãy sẵn sàng để giải phóng kỹ năng lập trình của bạn và cạnh tranh để giành những giải thưởng hấp dẫn!",
-                    location: "Đấu trường Tech Hub",
-                    status: 1,
+            slogan: "Unleash the Coding Power",
+            description: "CodeFest est le défi de programmation ultime où les candidats seront confrontés à des problèmes de programmation difficiles. Préparez-vous à libérer vos compétences en programmation et à concourir pour des prix passionnants !",
+            location: "Arène du pôle technologique",
+            status: 1,
                     date_start: "2023-12-07",
                     date_end: "2024-02-10",
                     image: "http://res.cloudinary.com/deei5izfg/image/upload/v1701833508/Mobile/vg46xs2bjpggkbnucn6g.png",
@@ -69,10 +64,9 @@ module.exports = {
                 {
                     id: 5,
                     name: "TechXperience Expo",
-                    slogan: "Explore the Future Tech",
-                    description:
-                        "Bắt đầu một cuộc hành trình để khám phá những điều mới nhất và tuyệt vời nhất trong công nghệ. TechXperience Expo tổ chức những người yêu công nghệ, những người sáng tạo và chuyên gia ngành công nghiệp cho một ngày trải nghiệm công nghệ sâu sắc.",
-                    location: "Trung tâm Đổi mới, Đại học Đà Nẵng",
+            slogan: "Explore the Future Tech",
+            description: "Embarquez pour un voyage à la découverte des dernières et meilleures technologies. TechXperience Expo accueille les amateurs de technologie, les créateurs et les experts du secteur pour une journée d'expériences technologiques immersives.",
+            location: "Centre d'innovation, Université de Danang",
                     status: 1,
                     date_start: "2023-12-06",
                     date_end: "2024-02-15",
@@ -82,11 +76,10 @@ module.exports = {
                 },
                 {
                     id: 6,
-                    name: "Thách thức Data Crunch",
+                     name: "Le défi de la crise des données",
                     slogan: "Crack the Data Code",
-                    description:
-                        "Gọi tất cả những người đam mê dữ liệu! Tham gia Thách thức Data Crunch và thể hiện kỹ năng phân tích dữ liệu của bạn. Phân tích bộ dữ liệu thực tế và giải mã để khám phá thông tin quý báu.",
-                    location: "Phòng Lab Dữ liệu",
+                    description: "Appel à tous les passionnés de données ! Rejoignez le Data Crunch Challenge et montrez vos compétences en analyse de données. Analysez des ensembles de données du monde réel et décodez-les pour découvrir des informations précieuses.",
+                    location: "Laboratoire de données",
                     status: 1,
                     date_start: "2023-12-05",
                     date_end: "2024-01-08",
@@ -98,9 +91,8 @@ module.exports = {
                     id: 7,
                     name: "InnoHackathon 2023",
                     slogan: "Innovate, Code, Win!",
-                    description:
-                        "InnoHackathon là thách thức đổi mới cuối cùng. Tập hợp đội của bạn, nảy ra những giải pháp sáng tạo và lập trình đường đến chiến thắng. Đến lúc biến những ý tưởng đổi mới của bạn thành hiện thực!",
-                    location: "Trung tâm Đổi mới",
+                    description: "InnoHackathon est le défi ultime en matière d'innovation. Rassemblez votre équipe, trouvez des solutions créatives et programmez votre chemin vers la victoire. Il est temps de transformer vos idées innovantes en réalité !",
+                    location: "Centre d'innovation",
                     status: 1,
                     date_start: "2023-05-20",
                     date_end: "2024-05-06",
@@ -110,11 +102,10 @@ module.exports = {
                 },
                 {
                     id: 8,
-                    name: "Hội nghị FutureTech",
+                    name: "Conférence FutureTech",
                     slogan: "Shaping Tomorrow’s Tech",
-                    description:
-                        "Tham gia cùng các nhà lãnh đạo ngành, nhà nghiên cứu và người hâm mộ công nghệ tại Hội nghị FutureTech. Khám phá những công nghệ đột phá, thảo luận về xu hướng tương lai và tham gia vào việc định hình bức tranh công nghệ của ngày mai.",
-                    location: "Trung tâm Hội nghị Công nghệ",
+                    description: "Rejoignez les leaders de l'industrie, les chercheurs et les fans de technologie à la conférence FutureTech. Explorez des technologies révolutionnaires, discutez des tendances futures et participez à façonner le paysage technologique de demain.",
+                    location: "Centre de conférence technologique",
                     status: 1,
                     date_start: "2023-03-20",
                     date_end: "2024-04-12",
@@ -127,8 +118,8 @@ module.exports = {
                     name: "IT VOLLEYBALL TEAM",
                     slogan: " IGNITE THE POWER",
                     description:
-                        "Các ITers có cơ hội nhận những phần quà bất ngờ khi tham gia cổ vũ và đặt câu hỏi cho đội bóng trong buổi giao lưu sau trận đấu. Hãy cùng tạo nên không khí nóng bỏng và tràn đầy năng lượng tích cực cho đội nhà!",
-                    location: "Nhà thi đấu thể thao khu D - Trường Đại học Bách Khoa.",
+                        "Les ITers ont la possibilité de recevoir des cadeaux surprenants en participant aux encouragements et en posant des questions à l'équipe lors de la réunion d'après-match. Créons une ambiance chaleureuse et pleine d'énergie positive pour l'équipe locale !",
+                    location: "Zone du stade sportif D - Université Polytechnique.",
                     status: 1,
                     date_start: "2023-03-02",
                     date_end: "2024-03-13",
@@ -139,10 +130,10 @@ module.exports = {
                 {
                     id: 10,
                     name: "UNIHACK 2023",
-                    slogan: "KHUẤY ĐỘNG KHÔNG KHÍ VỚI INFO SESSION",
+                    slogan: "REMUEZ L'AIR AVEC UNE SÉANCE D'INFO",
                     description:
-                        "Sự kiện Kickoff hứa hẹn mang đến cho bạn cái nhìn toàn diện về cuộc thi và những chia sẻ hết sức thú vị với nhiều chủ đề khác nhau. Hãy tham gia để không chỉ nắm bắt thông tin quan trọng mà còn được gặp gỡ các chuyên gia, nhà tài trợ và các đối tác đồng hành cùng UniHack 2023.",
-                    location: "VTC Academy Plus - 130 Điện Biên Phủ, Thanh Khê, TP Đà Nẵng",
+                        "L'événement Kickoff promet de vous apporter une vision globale de la compétition et des partages extrêmement intéressants sur de nombreux sujets différents. Rejoignez-nous non seulement pour obtenir des informations importantes, mais également pour rencontrer des experts, des sponsors et des partenaires accompagnant UniHack 2023.",
+                    location: "VTC Academy Plus - 130 Dien Bien Phu, Thanh Khe, ville de Da Nang",
                     status: 1,
                     date_start: "2023-02-10",
                     date_end: "2024-02-27",
@@ -152,11 +143,11 @@ module.exports = {
                 },
                 {
                     id: 11,
-                    name: "IT LOL 2023",
-                    slogan: "Unity Unleashes Triumph",
+                    name: "IL MDR 2023",
+                    slogan: "L'unité libère le triomphe",
                     description:
-                        "Một giải đấu quy tụ nhiều anh tài của ITF, hứa hẹn đem lại một sân chơi bổ ích, chuyên nghiệp cùng nhiều giải thưởng hấp dẫn.",
-                    location: "phòng C202.",
+                        "Un tournoi qui rassemble de nombreux talents de l'ITF, promettant d'apporter un terrain de jeu utile et professionnel et de nombreux prix attractifs.",
+                    location: "salle C202.",
                     status: 1,
                     date_start: "2023-01-24",
                     date_end: "2024-02-05",
@@ -166,11 +157,11 @@ module.exports = {
                 },
                 {
                     id: 12,
-                    name: "BKDN TECHSHOW 2023",
-                    slogan: "Sparks of Innovation, Thrills Await!",
+                    name: "BKDN TECHSHOW2023",
+                    slogan: "Des étincelles d’innovation et des sensations fortes vous attendent !",
                     description:
-                        "Một ngày hội Khoa học Công nghệ với các sản phẩm nghiên cứu đầy mới mẻ, đột phá, những minigame hấp dẫn chắc chắn sẽ khiến bạn cảm nhận được sức nóng tuổi trẻ.",
-                    location: "Trường THPT Chuyên Lê Quý Đôn",
+                        "Un festival de science et de technologie avec de nouveaux produits de recherche révolutionnaires et des mini-jeux attrayants vous fera certainement ressentir la chaleur de la jeunesse.",
+                    location: "Lycée pour surdoués Le Quy Don",
                     status: 1,
                     date_start: "2023-01-02",
                     date_end: "2024-01-12",
@@ -180,11 +171,11 @@ module.exports = {
                 },
                 {
                     id: 13,
-                    name: "K22 - LET'S COMPILE",
-                    slogan: "New Horizons, Same Sky. Ready for Takeoff?",
+                    name: "K22 - COMPILONS",
+                    slogan: "Nouveaux horizons, même ciel. Prêt à décoller?",
                     description:
-                        "Tại đây, các bạn sẽ có cơ hội hòa mình vào bầu không khí năng động, sôi nổi thông qua 7 trạm trò chơi nhỏ thú vị. Nhiều phần quà có giá trị đến từ ITF sẽ được trao cho những người chơi tích cực nhất. ",
-                    location: "khuôn viên trường ĐHBK - ĐHĐN.",
+                        "Ici, vous aurez l'occasion de vous immerger dans une ambiance dynamique et vibrante à travers 7 petites stations de jeux intéressantes. De nombreux cadeaux précieux de l'ITF seront offerts aux joueurs les plus actifs.",
+                    location: "campus de l'Université des Sciences et Technologies - UD.",
                     status: 1,
                     date_start: "2023-11-02",
                     date_end: "2024-11-11",
@@ -194,11 +185,11 @@ module.exports = {
                 },
                 {
                     id: 14,
-                    name: "WE MIX, YOU MATCH - ONE DAY LEFT!",
-                    slogan: "Destined Connection.",
+                    name: "NOUS MÉLANGONS, VOUS ASSOCIEZ - PLUS UN JOUR !",
+                    slogan: "Connexion destinée.",
                     description:
-                        "Chương trình được thực hiện để các bạn có cơ hội gặp gỡ, làm quen với thành viên các trung đội khác nên các bạn đừng quá ngại ngùng mà hãy đăng ký tham gia để giao lưu cùng nhau nhé, biết đâu lại là duyên tiền định!",
-                    location: "Trung tâm Giáo dục Quốc phòng An ninh Quân khu V.",
+                        "Le programme est conçu pour vous donner l'opportunité de rencontrer et de connaître d'autres membres du peloton, alors ne soyez pas trop timide, inscrivez-vous pour participer et interagir les uns avec les autres. Qui sait, ce sera peut-être le destin !",
+                    location: "Centre d'Éducation à la Défense et à la Sécurité Région Militaire V.",
                     status: 1,
                     date_start: "2023-09-22",
                     date_end: "2024-10-06",
@@ -208,11 +199,11 @@ module.exports = {
                 },
                 {
                     id: 15,
-                    name: "THẮP SÁNG TRUNG THU",
-                    slogan: "CHIA HẠNH PHÚC, SẺ YÊU THƯƠNG",
+                    name: "Illuminez la mi-automne",
+                    slogan: "PARTAGEZ LE BONHEUR, PARTAGEZ L'AMOUR",
                     description:
-                        "Tết Trung thu không chỉ là lễ hội cổ truyền được nhiều trẻ em Việt Nam mong chờ, Trung Thu còn là tết đoàn viên, là dịp để gia đình quây quần bên nhau ngắm trăng, nếm bánh. Thế nhưng, không phải ai cũng may mắn có được bữa cơm vui vẻ bên gia đình dịp trăng tròn. ",
-                    location: "Chân cầu Ngô Sĩ Liên.",
+                        "La Fête de la Mi-Automne n'est pas seulement une fête traditionnelle que de nombreux enfants vietnamiens attendent avec impatience, la Fête de la Mi-Automne est aussi une fête de retrouvailles, l'occasion pour les familles de se réunir pour observer la lune et déguster des gâteaux. Cependant, tout le monde n’a pas la chance de partager un bon repas en famille à la pleine lune.",
+                    location: "Le pied du pont Ngo Si Lien.",
                     status: 1,
                     date_start: "2023-10-01",
                     date_end: "2024-10-09",
@@ -222,11 +213,11 @@ module.exports = {
                 },
                 {
                     id: 16,
-                    name: "[IC RE³] - RECAP - OUR BEST MEMORIES!",
-                    slogan: "Xách ba lô và đi",
+                    name: "[IC RE³] - RÉCAPITULATIF - NOS MEILLEURS SOUVENIRS !",
+                    slogan: "Préparez votre sac à dos et partez",
                     description:
-                        "Đến với Hội trại năm nay, ITers không những được Return về mặt thể xác mà còn được Renew tâm hồn mình qua những lời nhắn đến từ trạm phát Confession của chúng tớ.  ",
-                    location: "Biển Ngọc - Thị Trấn Lăng Cô, Phú Lộc, Thừa Thiên - Huế.",
+                        "En venant au camp de cette année, les ITers seront non seulement de retour physiquement, mais verront également leur âme renouvelée grâce aux messages de notre station de diffusion Confession. ",
+                    location: "Mer de Jade - Ville de Lang Co, Phu Loc, Thua Thien - Hué.",
                     status: 1,
                     date_start: "2023-09-02",
                     date_end: "2024-09-25",
@@ -236,11 +227,11 @@ module.exports = {
                 },
                 {
                     id: 17,
-                    name: "[5 DAYS CHALLENGE] - BETTER BY MY SELF - HERE WE GO!",
-                    slogan: "sẵn sàng cho một năm mới đầy hứng khởi",
+                    name: "[DÉFI 5 JOURS] - MIEUX PAR MOI - C'EST PARTI !",
+                    slogan: "Préparez-vous pour une nouvelle année passionnante",
                     description:
-                        " ITers ơii, Tết của các bạn như nào rồi ấy nhỉ?!Và để enjoy những ngày cuối cùng trước khi trở lại trường học tập, hãy cùng IT Media chúng tớ lan tỏa năng lượng tích cực trong năm mới này bằng sự kiện 5 Days Challenge nhé!",
-                    location: "Đại học bách khoa Đà Nẵng",
+                        " Hey les ITers, comment se sont passées vos vacances du Têt ?! Et pour profiter des derniers jours avant la rentrée, rejoignez-nous chez IT Media pour diffuser une énergie positive en cette nouvelle année avec l'événement 5 Days Challenge !",
+                    location: "Université Polytechnique de Danang",
                     status: 1,
                     date_start: "2023-08-10",
                     date_end: "2024-08-23",
@@ -250,11 +241,11 @@ module.exports = {
                 },
                 {
                     id: 18,
-                    name: "IT ESPORT - LOL",
-                    slogan: "RINH CÚP VỀ NHÀ!",
+                    name: "IT ESPORT - MDR",
+                    slogan: "REMPORTEZ LA COUPE À LA MAISON !",
                     description:
-                        "Tiếp nối với sự thành công của giải đấu năm ngoái, BCH quyết định tổ chức IT LOL 2022 – một giải đấu quy tụ nhiều anh tài của ITF, hứa hẹn đem lại một sân chơi bổ ích, chuyên nghiệp cùng nhiều giải thưởng thưởng hấp dẫn.",
-                    location: "Online trên MS Teams.",
+                        "Suite au succès du tournoi de l'année dernière, le comité exécutif a décidé d'organiser IT LOL 2022, un tournoi qui rassemble de nombreux talents de l'ITF, promettant d'apporter un terrain de jeu utile et professionnel et de nombreux prix attractifs.",
+                    location: "En ligne sur MS Teams.",
                     status: 1,
                     date_start: "2023-06-22",
                     date_end: "2024-07-10",
@@ -267,8 +258,8 @@ module.exports = {
                     name: "DUT PROGRAMING CHALLENGE 2021",
                     slogan: "ARE YOU READY TO FIGHT!?",
                     description:
-                        "Hãy sẵn sàng cho một sự kiện lập trình đầy hứng thú khi chúng tôi mang đến cho bạn Thách Thức Lập Trình DUT 2021! Đây không chỉ là một cuộc thi; đây là hành trình châm ngôn vào thế giới của thuật toán, giải quyết vấn đề và công nghệ tiên tiến. Dù bạn là một lập trình viên có kinh nghiệm hay một người mới tò mò, sự kiện này là nền tảng để thể hiện kỹ năng của bạn, học từ những người giỏi nhất và kết nối với những người có cùng sở thích.",
-                    location: "Đại Học Bách Khoa Đà Nẵng",
+                        "Préparez-vous pour un événement de codage passionnant alors que nous vous proposons le défi de programmation DUT 2021 ! Il ne s'agit pas simplement d'un concours ; C'est le voyage proverbial dans le monde des algorithmes, de la résolution de problèmes et de la technologie de pointe. Que vous soyez un programmeur expérimenté ou un débutant curieux, cet événement est une plateforme pour présenter vos compétences, apprendre des meilleurs et entrer en contact avec des personnes partageant les mêmes intérêts.",
+                    location: "Université Polytechnique de Danang",
                     status: 2,
                     date_start: "2021-05-21",
                     date_end: "2021-06-02",
@@ -278,11 +269,11 @@ module.exports = {
                 },
                 {
                     id: 20,
-                    name: "IT ESPORT - LEAGUE OF LEGENDS 2021",
-                    slogan: "Mang ngôi vương về nhà",
+                    name: "IT ESPORT - LIGUE DES LÉGENDES 2021",
+                    slogan: "Ramenez le trône à la maison",
                     description:
-                        "Đã đến xuân rồi nhưng trời vẫn lạnh và bạn vẫn cô đơn ư? Đừng ủ rũ nữa mà hãy sẵn sàng làm nóng mùa xuân này cùng với chúng tớ khi giải đấu eSport thường niên của khoa CNTT đã chính thức trở lại với tên gọi [IT eSport - League of Legends 2021]. Nối tiếp sự thành công của các năm trước và ngày càng hoàn thiện hơn, giải đấu năm nay hứa hẹn sẽ mang đến cho chúng ta những màn tranh tài vô cùng nảy lửa cũng như những giải thưởng cực kì hấp dẫn dành cho các đội thi.",
-                    location: " STC Gaming, 643 Tôn Đức Thắng, Hoà Khánh, Liên Chiểu, Đà Nẵng.",
+                        "C'est le printemps mais il fait encore froid et tu es toujours seul ? Ne soyez plus sombre mais préparez-vous à réchauffer ce printemps avec nous lorsque le tournoi eSport annuel du département informatique sera officiellement de retour sous le nom [IT eSport - League of Legends 2021]. Poursuivant le succès des années précédentes et devenant de plus en plus parfait, le tournoi de cette année promet de nous apporter une compétition extrêmement féroce ainsi que des prix extrêmement attractifs pour les équipes en compétition.",
+                    location: " STC Gaming, 643 tonnes Duc Thang, Hoa Khanh, Lien Chieu, Da Nang.",
                     status: 2,
                     date_start: "2021-04-03",
                     date_end: "2021-04-04",
@@ -292,11 +283,11 @@ module.exports = {
                 },
                 {
                     id: 21,
-                    name: "BKDN TECHSHOW 2021",
-                    slogan: "CHECK-IN NGAY ĐI, NHẬN QUÀ IT!! ",
+                    name: "BKDN TECHSHOW2021",
+                    slogan: "ENREGISTREZ-VOUS MAINTENANT, RECEVEZ-LE EN CADEAU !! ",
                     description:
-                        "Và đến với [BKDN Techshow 2021], một hoạt động không thể bỏ lỡ chính là check-in đấy nha. Hãy sẵn sàng để có cho mình những bức ảnh đẹp và [rinh] về những phần quà đặc biệt đến từ Khoa CNTT chúng tớ nhé!",
-                    location: "Trường THPT Phan Châu Trinh, 154 Lê Lợi,  Hải Châu, Đà Nẵng.",
+                        "Et à venir au [BKDN Techshow 2021], une activité à ne pas manquer est l'enregistrement. Préparez-vous à prendre de belles photos et à gagner des cadeaux spéciaux de notre Faculté des technologies de l'information !",
+                    location: "Lycée Phan Chau Trinh, 154 Le Loi, Hai Chau, Da Nang.",
                     status: 2,
                     date_start: "2021-03-02",
                     date_end: "2021-04-02",

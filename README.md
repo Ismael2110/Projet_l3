@@ -1,7 +1,7 @@
 # Gestion Evènement
 
 ## Mobile 
-### Project Information
+### Renseignements sur le projet
 ![React](https://img.shields.io/badge/React-18.2.0-blue.svg)
 ![React Native](https://img.shields.io/badge/React%20Native-0.72.6-green.svg)
 ![Expo](https://img.shields.io/badge/Expo-~49.0.15-9cf.svg)
@@ -12,27 +12,27 @@
 
 ### Scripts
 
-- `start`: Start the project using Expo.
-- `android`: Start the project for Android.
-- `ios`: Start the project for iOS.
-- `web`: Start the project for web.
-- `fakeApi`: Start a fake API server using json-server.
+- `start`: Démarrez le projet en utilisant Expo.
+- `android`: Démarrez le projet pour Android.
+- `ios`: Démarrez le projet pour iOS.
+- `web`: Démarrez le projet pour le Web.
+- `fakeApi`: Démarrez un faux serveur API à l'aide de json-server.
 
-### Running the App
-1. Install dependencies:
+### Exécuter l'application
+1. Installer les dépendances:
 ```bash
    cd frontend
    npm install
 ```
-2. Start the development server Expo:
+2. Démarrer l'expo du serveur de développement:
 ```bash
     npm start
 ```
-3. For Android:
+3. Pour Android:
 ```bash
     npm run android
 ```
-4. For iOS:
+4. Pour iOS:
 ```bash
     npm run ios
 ```
@@ -52,13 +52,13 @@
 
 ### Scripts
 
-- `test`: Run tests (placeholder).
-- `start`: Start the server using Nodemon.
+- `test`: Exécuter des tests (espace réservé).
+- `start`:Démarrez le serveur en utilisant Nodemon.
 
 
 ### Getting Started
 
-1. Install dependencies:
+1. Installer les dépendances :
 ```bash
     cd backend
     npm install

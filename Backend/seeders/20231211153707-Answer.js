@@ -9,114 +9,114 @@ module.exports = {
           {
             question_id : 1,
             user_id  : 4,
-            answer : "Chưa tham event nào trước đây"
+            answer : "Je n'ai assisté à aucun événement auparavant"
           },
           {
             question_id : 2,
             user_id  : 4,
-            answer : "Tôi muốn biết liệu sự kiện có sử dụng phương tiện truyền thông nào để chia sẻ thông tin và tương tác với người tham gia hay không."
+            answer : "Je veux savoir si l'événement utilise des médias pour partager des informations et interagir avec les participants."
           },
           
           {
             question_id : 3,
             user_id  : 4,
-            answer : "Tôi biết qua sự giới thiệu của bạn bè"
+            answer : "Je l'ai su grâce à l'introduction d'un ami"
           },
           
           {
             question_id : 4,
             user_id  : 4,
-            answer : "Mục tiêu của tôi khi tham gia là để giao lưu, học hỏi, phát triển bản thân"
+            answer : "Mon objectif en participant est d'échanger, d'apprendre et de me développer"
           },
           
           {
             question_id : 5,
             user_id  : 4,
-            answer : "Ban truyền thông"
+            answer : "Tableau de communication"
           },
           {
             question_id : 1,
             user_id  : 3,
-            answer : "Chưa tham event nào trước đây"
+            answer : "Je n'ai assisté à aucun événement auparavant"
           },
           {
             question_id : 2,
             user_id  : 3,
-            answer : "Tôi muốn biết liệu sự kiện có sử dụng phương tiện truyền thông nào để chia sẻ thông tin và tương tác với người tham gia hay không."
+            answer : "Je veux savoir si l'événement utilise des médias pour partager des informations et interagir avec les participants."
           },
           
           {
             question_id : 3,
             user_id  : 3,
-            answer : "Tôi biết qua sự giới thiệu của bạn bè"
+            answer : "Je l'ai su grâce à l'introduction d'un ami"
           },
           
           {
             question_id : 4,
             user_id  : 3,
-            answer : "Mục tiêu của tôi khi tham gia là để giao lưu, học hỏi, phát triển bản thân"
+            answer : "Mon objectif en participant est d'échanger, d'apprendre et de me développer"
           },
           
           {
             question_id : 5,
             user_id  : 3,
-            answer : "Ban truyền thông"
+            answer : "Tableau de communication"
           },
           {
             question_id : 6,
             user_id  : 2,
-            answer : "Chưa tham event nào trước đây"
+            answer : "Je n'ai assisté à aucun événement auparavant"
           },
           {
             question_id : 7,
             user_id  : 2,
-            answer : "Tôi muốn biết liệu sự kiện có sử dụng phương tiện truyền thông nào để chia sẻ thông tin và tương tác với người tham gia hay không."
+            answer : "Je veux savoir si l'événement utilise des médias pour partager des informations et interagir avec les participants."
           },
           
           {
             question_id : 8,
             user_id  : 2,
-            answer : "Tôi biết qua sự giới thiệu của bạn bè"
+            answer : "Je l'ai su grâce à l'introduction d'un ami"
           },
           
           {
             question_id : 9,
             user_id  : 2,
-            answer : "Ban kĩ thuật"
+            answer : "Bureau technique"
           },
           
           {
             question_id : 10,
             user_id  : 2,
-            answer : "Tôi rất muốn tham gia và gặp gỡ những người khác nhưng vẫn chưa có kế hoạch"
+            answer : "J'aimerais participer et rencontrer d'autres personnes mais je n'ai pas encore de projets"
           },
           {
             question_id : 11,
             user_id  : 3,
-            answer : "Chưa tham event nào trước đây"
+            answer : "Je n'ai assisté à aucun événement auparavant"
           },
           {
             question_id : 12,
             user_id  : 3,
-            answer : "Tôi muốn biết liệu sự kiện có sử dụng phương tiện truyền thông nào để chia sẻ thông tin và tương tác với người tham gia hay không."
+            answer : "Je veux savoir si l'événement utilise des médias pour partager des informations et interagir avec les participants."
           },
             
           {
             question_id : 13,
             user_id  : 3,
-            answer : "Tôi biết qua sự giới thiệu của bạn bè"
+            answer : "Je l'ai su grâce à l'introduction d'un ami"
           },
           
           {
             question_id : 14,
             user_id  : 3,
-            answer : "Mục tiêu của tôi khi tham gia là để giao lưu, học hỏi, phát triển bản thân"
+            answer : "Mon objectif en participant est d'échanger, d'apprendre et de me développer"
           },
           
           {
             question_id : 15,
             user_id  : 3,
-            answer : "Ban truyền thông"
+            answer : "Tableau de communication"
           },
       ],
       {}

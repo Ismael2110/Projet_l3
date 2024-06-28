@@ -1,7 +1,7 @@
 import axios from 'axios'
 import queryString from 'query-string'
 
-const apiUrl = 'http://localhost:3000/'
+const apiUrl = 'https://highx5-manager-event-mobile.onrender.com'
 
 const axiosClient = {
     

@@ -1,66 +1,60 @@
-import axios from 'axios';
+import axios from 'axios'
 
-const apiUrl = 'http://localhost:3000';
+const apiUrl = 'https://highx5-manager-event-mobile.onrender.com'
 
 const getEvents = async () => {
     try {
-        const response = await axios.get(`${apiUrl}/api/event`);
-        return response.data;
+        const response = await axios.get(`${apiUrl}/api/event`)
+        return response.data
     } catch (error) {
-        console.error('Error fetching events:', error);
-        throw error;
+        throw error
     }
-};
+}
 
 const getEventsHome = async () => {
     try {
-        const response = await axios.get(`${apiUrl}/api/event/list_events_by_num_candidates/2`);
-        return response.data;
+        const response = await axios.get(`${apiUrl}/api/event/list_events_by_num_candidates/2`)
+        return response.data
     } catch (error) {
-        console.error('Error fetching home events:', error);
-        throw error;
+        throw error
     }
-};
+}
 
 const getEventDetail = async (id) => {
     try {
-        const response = await axios.get(`${apiUrl}/api/event/event_detail/${id}`);
-        return response.data;
+        const response = await axios.get(`${apiUrl}/api/event/event_detail/${id}`)
+        return response.data
     } catch (error) {
-        console.error(`Error fetching event detail for event ID ${id}:`, error);
-        throw error;
+        throw error
     }
-};
+}
 
 const getEventByUserId = async (id) => {
     try {
-        const response = await axios.get(`${apiUrl}/api/event/list_event_owner/${id}`);
-        return response.data;
+        const response = await axios.get(`${apiUrl}/api/event/list_event_owner/${id}`)
+        return response.data
     } catch (error) {
-        console.error(`Error fetching events by user ID ${id}:`, error);
-        throw error;
+        throw error
     }
-};
+}
 
 const getQuestionEvent = async (eventId) => {
     try {
-        const response = await axios.get(`${apiUrl}/api/form/application_form/${eventId}`);
-        return response.data;
+        const response = await axios.get(`${apiUrl}/api/form/application_form/${eventId}`)
+        return response.data
     } catch (error) {
-        console.error(`Error fetching questions for event ID ${eventId}:`, error);
-        throw error;
+        throw error
     }
-};
+}
 
 const getListEventTakePartIn = async (userID) => {
     try {
-        const response = await axios.get(`${apiUrl}/api/event/list_event_part_in/${userID}`);
-        return response.data.rows;
+        const response = await axios.get(`${apiUrl}/api/event/list_event_part_in/${userID}`)
+        return response.data.rows
     } catch (error) {
-        console.error(`Error fetching list of events for user ID ${userID}:`, error);
-        throw error;
+        throw error
     }
-};
+}
 
 const updateEvent = async (event) => {
     try {
@@ -68,15 +62,14 @@ const updateEvent = async (event) => {
             `${apiUrl}/api/event/update/`,
             event,
             {
-                headers: { 'content-type': 'multipart/form-data' },
+                headers: { 'content-type': 'multipart/form-data', },
             }
-        );
-        return response.data;
+        )
+        return response.data
     } catch (error) {
-        console.error('Error updating event:', error);
-        throw error;
+        throw error
     }
-};
+}
 
 const createEvent = async (formData) => {
     try {
@@ -84,35 +77,34 @@ const createEvent = async (formData) => {
             `${apiUrl}/api/event/create/`,
             formData,
             {
-                headers: { 'content-type': 'multipart/form-data' },
+                headers: { 'content-type': 'multipart/form-data'},
             }
-        );
-        return response.data;
+        )
+        return response.data
     } catch (error) {
-        console.error('Error creating event:', error);
-        throw error;
+        console.log(error)
+        throw error
     }
-};
+}
 
 const deleteEvent = async (id) => {
     try {
-        const response = await axios.delete(`${apiUrl}/api/event/delete/${id}`);
-        return response.data;
+        const response = await axios.delete(`${apiUrl}/api/event/delete/${id}`)
+        return response.data
     } catch (error) {
-        console.error(`Error deleting event with ID ${id}:`, error);
-        throw error;
+        console.log(error)
+        throw error
     }
-};
+}
 
 const getEventByCategory = async (category) => {
     try {
-        const response = await axios.get(`${apiUrl}/api/event/list_event_by_categorty?category=${category}`);
-        return response.data;
+        const response = await axios.get(`${apiUrl}/api/event/list_event_by_categorty?category=${category}`)
+        return response.data
     } catch (error) {
-        console.error(`Error fetching events by category ${category}:`, error);
-        throw error;
+        throw error
     }
-};
+}
 
 export default {
     getEvents,
@@ -125,4 +117,4 @@ export default {
     getEventByUserId,
     getEventByCategory,
     getListEventTakePartIn
-};
+}
