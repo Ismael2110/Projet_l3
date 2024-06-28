@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const apiUrl = 'https://highx5-manager-event-mobile.onrender.com'
+const apiUrl = 'http://192.168.43.61:8000'
 
 const getEvents = async () => {
     try {

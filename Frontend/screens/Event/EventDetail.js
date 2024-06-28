@@ -130,7 +130,7 @@ const EventDetail = (props) => {
                                     marginBottom: 10,
                                 }}
                             >
-                                {showMembers && selectedDepartment === index ? 'Hide members' : 'Members have joined'}
+                                {showMembers && selectedDepartment === index ? 'Hide members' : 'Membres rejoint'}
                             </Text>
                         </TouchableOpacity>
 

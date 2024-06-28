@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const apiUrl = 'https://highx5-manager-event-mobile.onrender.com'
+const apiUrl = 'http://192.168.56.1:8000'
+//const apiUrl = 'https://highx5-manager-event-mobile.onrender.com'
 
 const getMyTasks = async (user_id, status = 2) => {
     try {

@@ -140,7 +140,7 @@ const CreateTask = ({route}) => {
                             </View>
                         </View>
                         <View style={styles.content_Event_Date}>
-                            <Text style={styles.content_lable}>End Date</Text>
+                            <Text style={styles.content_lable}>Date de fin</Text>
                             <View style={styles.inputContainer}>
                                 <Text style={styles.input123} onPress={showEndDatePickerModal}>
                                     {endDateSeclect}
@@ -168,21 +168,21 @@ const CreateTask = ({route}) => {
                                 )}
                             </View>
                         </View>
-                        {errEndDate && <Text style={styles.error}>Please enter an end date later than the start date</Text>}
+                        {errEndDate && <Text style={styles.error}>Veuillez saisir une date de fin postérieure à la date de début</Text>}
                     </View>
                     <View style={styles.task_content}>
                         <View style={styles.content_Event}>
-                            <Text style={styles.content_lable}>Content Task</Text>
+                            <Text style={styles.content_lable}>Tâche de contenu</Text>
                             <TextInput
                                 style={styles.input_Description}
-                                placeholder="Mô tả công việc"
+                                placeholder="Description de l'emploi"
                                 multiline
                                 textAlignVertical="top" // Bắt đầu từ phía trên xuống
                                 onChangeText={(text) => {
                                     setContent(text)
                                 }}
                             />
-                            {errContent && <Text style={styles.error}>Please enter the content task</Text>}
+                            {errContent && <Text style={styles.error}>Veuillez saisir la tâche de contenu</Text>}
                         </View>
                     </View>
                 </View>
@@ -191,7 +191,7 @@ const CreateTask = ({route}) => {
                         style={styles.button}
                         onPress={handlerPressCreate}
                     >
-                        <Text style={styles.buttom_lable}>Create Event</Text>
+                        <Text style={styles.buttom_lable}>Créer un évènement</Text>
                     </TouchableOpacity>
                 </View>
             </View>

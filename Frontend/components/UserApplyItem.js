@@ -28,7 +28,7 @@ const UserApplyItem = (props) => {
                 />
                 <View style={styles.mainInfo}>
                     <View style={styles.smallContainer}>
-                        <Text style={styles.label}>Name : </Text>
+                        <Text style={styles.label}>Nom : </Text>
                         <Text style={styles.data}>{truncateGmail(data.name)}</Text>
                     </View>
                     <View style={styles.smallContainer}>
@@ -46,7 +46,7 @@ const UserApplyItem = (props) => {
                     style={styles.button}
                     onPress={viewApplyPress}
                 >
-                    <Text style={styles.buttonText}>Apply form</Text>
+                    <Text style={styles.buttonText}>Appliquer</Text>
                 </TouchableOpacity>
             </View>
         </View>

@@ -14,7 +14,7 @@ app.use(cors());
 const staticPath = path.join(__dirname, 'public');
 
 app.get('/',(req,res) => {
-    res.send('HighX5-Manager_Event_Mobile')
+    res.send('Backend mise a jour')
 })
 
 app.use(express.static(staticPath));
