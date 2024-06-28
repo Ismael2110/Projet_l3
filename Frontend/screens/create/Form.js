@@ -35,7 +35,7 @@ export default function Form(props) {
                 value={description}
             />
             <TouchableOpacity style={styles.btn} onPress={handleAddDepartment}>
-                <Text style={styles.btnText}>Add Department</Text>
+                <Text style={styles.btnText}>Ajouter un département</Text>
             </TouchableOpacity>
         </KeyboardAvoidingView>
     )

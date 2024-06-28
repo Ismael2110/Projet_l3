@@ -19,7 +19,7 @@ async function getEventCandidateTakePartInController(request, response) {
         return response.status(200).json(queryResult);
     } catch (error) {
         return response.status(500).json({
-            message: "Something went wrong!",
+            message: "Quelque chose s'est mal passé!",
             error: error,
         });
     }
@@ -46,7 +46,7 @@ async function acceptCandidate(request,response)
             const newNoti = {
                 event_id : event1.id,
                 title : event1.name,
-                content : `Bạn đã được chấp nhận tham gia vào sự kiện '${event1.name}'`,
+                content : `Vous avez été accepté pour participer à l'événement '${event1.name}'`,
                 dateTime : getCurrentDateTime(),
                 isRead : false,
                 image : "https://res.cloudinary.com/deei5izfg/image/upload/v1702183107/Mobile/pssybhsldjimufloxwk5.png",
@@ -60,12 +60,12 @@ async function acceptCandidate(request,response)
                 })
             })
             
-            return response.status(200).json({message : "accept candidate successfully", result : result});
+            return response.status(200).json({message : "accepter le candidat avec succès", result : result});
         })
         
     } catch (error) {
         return response.status(500).json({
-            message: "Something went wrong!",
+            message: "Quelque chose s'est mal passé!",
             error: error,
         });
     }
@@ -85,7 +85,7 @@ async function refuseCandidate(request,response)
         const newNoti = {
             event_id : event.id,
             title : event.name,
-            content : `Bạn đã bị từ chối tham gia vào sự kiện '${event.name}'`,
+            content : `On vous a refusé la participation à l'événement '${event.name}'`,
             dateTime : getCurrentDateTime(),
             isRead : false,
             image : "https://res.cloudinary.com/deei5izfg/image/upload/v1702357377/Mobile/o3eumkebyalcozbeqrdr.png",
@@ -99,11 +99,11 @@ async function refuseCandidate(request,response)
             })
         })
         
-        return response.status(200).json({message : "refuse candidate successfully"});
+        return response.status(200).json({message : "candidat refusé avec succès"});
 
     } catch (error) {
         return response.status(500).json({
-            message: "Something went wrong!",
+            message: "Quelque chose s'est mal passé!",
             error: error,
         });
     }

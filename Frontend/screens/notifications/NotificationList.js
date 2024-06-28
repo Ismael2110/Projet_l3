@@ -16,19 +16,19 @@ const NotificationList = ({ user })=>{
     const [loading, setLoading] = useState(true)
     const [categories, setCategories] = useState([
         {
-            name: 'All',
+            name: 'Tout',
             param: 3
         },
         {
-            name: 'Verified',
+            name: 'Vérifié',
             param: 0
         },
         {
-            name: 'Event',
+            name: 'Événement',
             param: 1
         },
         {
-            name: 'Deadline',
+            name: 'Délais',
             param: 2
         }
     ])
@@ -50,7 +50,7 @@ const NotificationList = ({ user })=>{
     }
 
     const read = async (noti_id) => {
-        console.log('Call')
+        console.log('Appel')
         try {
             await NotificationRepository.readNotification(noti_id)
             const responseNotifications = await NotificationRepository.getNotifications(user.id, categories[activeIndex].param)

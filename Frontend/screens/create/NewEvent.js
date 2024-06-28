@@ -167,7 +167,7 @@ const NewEvent = ({ route })=>{
                     <View style={styles.container}>
                         <View style={styles.header}>
                             <Text style={styles.title}>Information</Text>
-                            <Text style={styles.subText}>Fill in information to create a project</Text>
+                            <Text style={styles.subText}>Remplissez les informations pour créer un projet</Text>
                         </View>
                         <View style={styles.content}>
                             <View style={styles.content_img}>
@@ -193,14 +193,14 @@ const NewEvent = ({ route })=>{
                                                 color={colors.accent}
                                                 style={{ marginRight: 10 }}
                                             />
-                                            <Text style={styles.content_lable}>Image Event</Text>
+                                            <Text style={styles.content_lable}>Événement d'image</Text>
                                         </View>
                                     </TouchableOpacity>
                                 )}
                             </View>
 
                             <View style={styles.content_Event}>
-                                <Text style={styles.content_lable}>Name Event</Text>
+                                <Text style={styles.content_lable}>Nom de l'événement</Text>
                                 <TextInput
                                     style={styles.input}
                                     placeholder="Enter even's name"
@@ -236,7 +236,7 @@ const NewEvent = ({ route })=>{
                                 />
                             </View>
                             <View style={styles.content_Event}>
-                                <Text style={styles.content_lable}>Start Date</Text>
+                                <Text style={styles.content_lable}>Date de début</Text>
                                 <View style={styles.inputContainer}>
                                     <Text style={styles.input123} onPress={showStartDatePickerModal}>
                                         {startDateSeclect}
@@ -262,7 +262,7 @@ const NewEvent = ({ route })=>{
                                 </View>
                             </View>
                             <View style={styles.content_Event_Date}>
-                                <Text style={styles.content_lable}>End Date</Text>
+                                <Text style={styles.content_lable}>Date de fin</Text>
                                 <View style={styles.inputContainer}>
                                     <Text style={styles.input123} onPress={showEndDatePickerModal}>
                                         {endDateSeclect}
@@ -293,7 +293,7 @@ const NewEvent = ({ route })=>{
                                 <Text style={styles.content_lable}>Description</Text>
                                 <TextInput
                                     style={styles.input_Description}
-                                    placeholder="Enter description"
+                                    placeholder="Entrez la description"
                                     multiline
                                     textAlignVertical="top"
                                     onChangeText={(text) => {

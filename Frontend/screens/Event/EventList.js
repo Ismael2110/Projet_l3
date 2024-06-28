@@ -72,7 +72,7 @@ const EventList = ({user})=>{
                 />
                 <TouchableOpacity
                     onPress={() => {
-                        alert('Filter')
+                        alert('Filtre')
                     }}
                 >
                     <Image source={icons.filter} style={styles.filter} />

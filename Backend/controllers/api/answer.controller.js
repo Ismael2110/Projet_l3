@@ -22,10 +22,10 @@ async function answerForm(request, response) {
             createAnswer(newAns);
         })
 
-        return response.status(200).json({message : "your answers have been recorded"});
+        return response.status(200).json({message : "vos réponses ont été enregistrées"});
     } catch (error) {
         return response.status(500).json({
-            message: "Something went wrong!",
+            message: "Quelque chose s'est mal passé !",
             error: error,
         });
     }

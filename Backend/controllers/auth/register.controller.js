@@ -63,13 +63,13 @@ async function register(request, response) {
             console.log(result.id)
 
             return response.status(200).json({
-                message: "Create user successfully!",
+                message: "Créer un utilisateur avec succès!",
                 result: result
             });
         });
     } catch (error) {
         return response.status(500).json({
-            message: "Something went wrong!",
+            message: "Quelque chose s'est mal passé!",
             error: error,
         });
     }

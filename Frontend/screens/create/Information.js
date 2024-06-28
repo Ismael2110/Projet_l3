@@ -146,7 +146,7 @@ export default function Information() {
                 <View style={[styles.body, { paddingTop: useSafeArea() }]}>
                     <View style={styles.header}>
                         <Text style={styles.title}>Information</Text>
-                        <Text style={styles.subText}>Fill in information to create a project</Text>
+                        <Text style={styles.subText}>Remplissez les informations pour créer un projet</Text>
                     </View>
                     <View style={styles.content}>
                         <View style={styles.content_img}>
@@ -172,17 +172,17 @@ export default function Information() {
                                             color={colors.accent}
                                             style={{ marginRight: 10 }}
                                         />
-                                        <Text style={styles.content_lable}>Image Event</Text>
+                                        <Text style={styles.content_lable}>Événement d'image</Text>
                                     </View>
                                 </TouchableOpacity>
                             )}
                         </View>
 
                         <View style={styles.content_Event}>
-                            <Text style={styles.content_lable}>Name Event</Text>
+                            <Text style={styles.content_lable}>Nom de l'événement</Text>
                             <TextInput
                                 style={styles.input}
-                                placeholder="Enter even's name"
+                                placeholder="Entrez le nom d'Even"
                                 onChangeText={(text) => setName(text)}
                             />
                         </View>
@@ -190,7 +190,7 @@ export default function Information() {
                             <Text style={styles.content_lable}>Slogan</Text>
                             <TextInput
                                 style={styles.input}
-                                placeholder="Enter event's logan"
+                                placeholder="'s logan"
                                 onChangeText={(text) => setSlogan(text)}
                             />
                         </View>
@@ -198,7 +198,7 @@ export default function Information() {
                             <Text style={styles.content_lable}>Location</Text>
                             <TextInput
                                 style={styles.input}
-                                placeholder="Enter event's location"
+                                placeholder="Entrez le lieu de l'événement"
                                 onChangeText={(text) => setLocation(text)}
                             />
                         </View>
@@ -209,20 +209,20 @@ export default function Information() {
                                     setTypeName(value);
                                 }}
                                 items={typeOption}
-                                placeholder={{ label: 'Other', value: 'Other' }}
+                                placeholder={{ label: 'Other', value: 'Autres' }}
                                 style={styles.selection}
                                 value={type_name}
                             />
                         </View>
                         <View style={styles.content_Event}>
-                            <Text style={styles.content_lable}>Start Date</Text>
+                            <Text style={styles.content_lable}>Date de début</Text>
                             <View style={styles.inputContainer}>
                                 <Text style={styles.input123} onPress={showStartDatePickerModal}>
                                     {startDateSeclect}
                                 </Text>
                                 <Icon
                                     onPress={showStartDatePickerModal}
-                                    name="calendar"
+                                    name="calendrier"
                                     size={20}
                                     color={'#969292'}
                                 ></Icon>
@@ -241,7 +241,7 @@ export default function Information() {
                             </View>
                         </View>
                         <View style={styles.content_Event_Date}>
-                            <Text style={styles.content_lable}>End Date</Text>
+                            <Text style={styles.content_lable}>Date de fin</Text>
                             <View style={styles.inputContainer}>
                                 <Text style={styles.input123} onPress={showEndDatePickerModal}>
                                     {endDateSeclect}
@@ -272,7 +272,7 @@ export default function Information() {
                             <Text style={styles.content_lable}>Description</Text>
                             <TextInput
                                 style={styles.input_Description}
-                                placeholder="Enter description"
+                                placeholder="Entrez la description"
                                 multiline
                                 textAlignVertical="top"
                                 onChangeText={(text) => {
@@ -284,7 +284,7 @@ export default function Information() {
 
                     <View style={styles.content_buttom}>
                         <TouchableOpacity style={styles.button} onPress={handleNext}>
-                            <Text style={styles.buttom_lable}>Next</Text>
+                            <Text style={styles.buttom_lable}>Suivant</Text>
                         </TouchableOpacity>
                     </View>
                 </View>
