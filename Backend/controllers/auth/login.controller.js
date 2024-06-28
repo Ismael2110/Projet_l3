@@ -10,7 +10,7 @@ async function login(req, res) {
         const user = await getUserByAccount(gmail);
 
         if (!user) {
-            return res.status(404).json({ message: "Không tìm thấy tài khoản" });
+            return res.status(404).json({ message: "Compte non trouvé" });
         }
 
         const isPasswordValid = await hashHelper.compare(
@@ -19,12 +19,12 @@ async function login(req, res) {
         );
         if (!isPasswordValid) {
             return res.status(401).json({
-                message: "Sai mật khẩu",
+                message: "Mauvais mot de passe",
             });
         }
 
         res.status(200).json({
-            message: "login success!!",
+            message: "connexion réussie !!",
             user : user,
         });
     } catch (err) {

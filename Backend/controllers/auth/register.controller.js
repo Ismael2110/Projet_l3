@@ -12,13 +12,13 @@ async function register(request, response) {
             !request.body.password2
         ) {
             return response.status(409).json({
-                message: "Thiếu thông tin",
+                message: "Le manque d'information",
             });
         }
 
         if (request.body.password !== request.body.password2) {
             return response.status(409).json({
-                message: "Mật khẩu 1 khác mật khẩu 2",
+                message: "Le mot de passe 1 est différent du mot de passe 2",
             });
         }
 
@@ -26,7 +26,7 @@ async function register(request, response) {
         const dbUser = await getUserByAccount(request.body.gmail);
         if (dbUser) {
             return response.status(409).json({
-                message: "email này đã tồn tại",
+                message: "ce courriel existe déjà",
             });
         }
 

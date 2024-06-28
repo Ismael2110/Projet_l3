@@ -1,85 +1,85 @@
 Backend-Side
-# HighX5-Manager_Event_Mobile
-Event management mobile application 
+# Gestion Evènement
+Application mobile de gestion d'événements 
 
-1. Tạo Node_modules
+1. Créer des Node_modules
 -> npm i
 
-2. Tạo model với sequelize:
+2. Créer un modèle avec sequelize :
 
--> using npm
+-> en utilisant npm
 
 npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
 
--> using yarn
+->  en utilisant yarn
 
 yarn sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
 
-=> Tạo 2 file: model và migration
+=> Créer 2 fichiers : modèle et migration
 
 3. Migrations:
 
--   Tạo migrations:
+-   Créer des migrations:
 
--> using npm 
+-> en utilisant npm 
 
 npx sequelize-cli migration:generate --name demo-user
 
--> using yarn
+-> en utilisant yarn
 
 yarn sequelize-cli migration:generate --name demo-user
 
--   Chạy migrations:
+-   Exécuter des migrations:
 
--> using npm
+-> en utilisant npm
 
 npx sequelize-cli db:migrate // auto chạy môi trường development
 
 npx sequelize db:migrate --env test --config config/config.json  // Chạy môi trường test
 
--> using yarn
+-> en utilisant yarn
 
 yarn sequelize-cli db:migrate
 
--   Gỡ migrations:
+-   Supprimer les migrations:
 
--> using npm
+-> en utilisant npm
 
 npx sequelize-cli db:migrate:undo:all
 
--> using yarn
+-> en utilisant yarn
 
 yarn sequelize-cli db:migrate:undo:all
 
-4. Tạo seeders:
+4. Créer seeders:
 
--   Tạo seeder:
+-   Créer seeder:
 
--> using npm
+-> en utilisant npm
 
 npx sequelize-cli seed:generate --name demo-user
 
--> using yarn
+-> en utilisant yarn
 
 yarn sequelize-cli seed:generate --name demo-user
 
 -   Chạy seeder:
 
--> using npm
+-> en utilisant npm
 
 npx sequelize-cli db:seed:all
 npx sequelize-cli db:seed --seed 20211116123456-demo-seeder.js
 
--> using yarn
+-> en utilisant yarn
 
 yarn sequelize-cli db:seed:all
 
--   Undo seeder:
+-   Annuler le semoir:
 
--> using npm
+-> en utilisant npm
 
 npx sequelize-cli db:seed:undo:all
 
--> using yarn
+-> en utilisant yarn
 
 yarn sequelize-cli db:seed:undo:all

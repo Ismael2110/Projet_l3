@@ -7,7 +7,7 @@ import { useNavigation } from '@react-navigation/native'
 export default function Category() {
     const [categories, setCategories] = useState([
         {
-            name: 'Fundraising',
+            name: 'Collecte de fonds',
             icon: require('../../assets/icons/category/fundraising.png'),
         },
         {
@@ -15,7 +15,7 @@ export default function Category() {
             icon: require('../../assets/icons/category/social-media.png'),
         },
         {
-            name: 'Virtual',
+            name: 'Virtuel',
             icon: require('../../assets/icons/category/vr.png'),
         },
         {
@@ -23,15 +23,15 @@ export default function Category() {
             icon: require('../../assets/icons/category/concert.png'),
         },
         {
-            name: 'Community',
+            name: 'Communauté',
             icon: require('../../assets/icons/category/community.png'),
         },
         {
-            name: 'Pop-up',
+            name: 'Fenêtres contextuelles',
             icon: require('../../assets/icons/category/pop-up.png'),
         },
         {
-            name: 'Other',
+            name: 'Autres',
             icon: require('../../assets/icons/category/other.png'),
         },
     ])

@@ -28,7 +28,7 @@ const query = async (sql) => {
 
         return results;
     } catch (error) {
-        console.error("Lỗi:", error);
+        console.error("Erreur:", error);
         throw error;
     } finally {
         if (connection) {
